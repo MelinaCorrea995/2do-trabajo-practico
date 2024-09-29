@@ -9,25 +9,25 @@
 
 <body>
     <header>
-        <div><img src="./assets/MercadoLiebre.png" width="300" alt="Mercado Liebre"></div>
+        <div><a href="./assets/MercadoLiebre.png" width="300" alt="Mercado Liebre"></div>
         <h2>Formularios</h2>
-        <form action="" method="post">
+        <form action="" method="get" id="search-form">Buscar<input type="text" id="search" name="search"><br>
             <label for="username">Nombre y Apellido</label>
-            <input type="text" name="username" placeholder="Nombre y Apellido" required><br>
+            <input type="text" name="Nombre y aoellido" placeholder="Nombre y Apellido" required><br>
             <label for="user">Nombre de Usuario</label>
-            <input type="text" name="user" placeholder="" required> <br>
+            <input type="text" name="User" placeholder="Nombre de Usuario" required>
             <label for="Email">Email</label>
-            <input type="email" name="Email" id="email">
+            <input type="email" name="Email" id="email"><br>
             <label for="fecha_nacimiento">Fecha de Nacimiento</label>
             <input type="date" id="Fecha de Nacimiento" required><br>
             <label for="Domicilio">Domicilio</label>
-            <input type="text" id="Domicilio" name="Domicilio" required>
-            <br>
+            <input type="text" id="Domicilio" name="Domicilio" required><br>
             <label for="Comprar">comprar</label>
-            <input type="radio"name="Comprar o Vender"id="comprar">
+            <input type="radio" name="Comprar o Vender" id="Comprar">
             <label for="Vender">Vender</label>
-            <input type="radio"name="Comprar o Vender" id="Vender">
-
+            <input type="radio" name="Comprar o Vender" id="Vender">
+        </form>
+        <section>
             <h2>Categorías de interés</h2>
             <label for="Electro">Electro</label>
             <input type="checkbox" name="Categorías" id="Electro">
@@ -52,79 +52,57 @@
             <button type="submit">Enviar</button>
             <br>
             <button type="reset">Borrar</button>
-        </form>
+        </section>
     </header>
     <main>
-        <section id="Última visita"></section>
-        <h2>Sección:Basado en tu última visita</h2>
-        </ul>
-        <img src="./assets/cafetera.moulinex.jpg" alt="Cafetera Moulinex" width="200"> <br>
-        <sup>$6.770</sup>
-        <br>
-        <text> 40% Off</text>
-        <p><strong>Cafetera Moulinex</strong></p>
-        <img src="./assets/MacBook.jpg" width="200" alt="MacBook">
-        <br>
-        <sup>$230.000</sup>
-        <br>
-        <text>20% Off</text>
-        <p><text>MacBook Pro 2019</text></p>
-        <img src="./assets/Galaxy-S10-Ceramic-Black_front1-1.jpg" width="200" alt="Samsung Galaxi">
-        <br>
-        <sup>$70.500</sup>
-        <br>
-        <text>10% Off</text>
-        <p><text>Samsung Galaxi S10</text></p>
-        <img src="./assets/Samsung-TV_iTunes-Movies-and-TV-shows-643x408.jpg" width="200" alt="SmartTv">
-        <br>
-        <sup>$23.200</sup>
-        <br>
-        <text>5% Off</text>
-        <p><strong>SmartTv Samsung 43"</strong></p>
-        <br>
+        <section>
+            <h2>Sección:Basado en tu última visita</h2>
+            <article>
+                <img src="./assets/cafetera.moulinex.jpg" alt="Cafetera Moulinex" width="200">
+                <h4>$6.770 40% Off Cafetera Moulinex</h4>
+            </article>
+            <article>
+                <img src="./assets/MacBook.jpg" width="200" alt="MacBook">
+                <h4>$230.000 20% Off MacBook Pro 2019</h4>
+            </article>
+            <article>
+                <img src="./assets/Galaxy-S10-Ceramic-Black_front1-1.jpg" width="200" alt="Samsung Galaxi">
+                <h4>$70.500 10% Off Samsung Galaxi S10</h4>
+            </article>
+            <article>
+                <img src="./assets/Samsung-TV_iTunes-Movies-and-TV-shows-643x408.jpg" width="200" alt="SmartTv">
+
+                <h4>$23.200 5% Off SmartTv Samsung 43"</h4>
+            </article>
         </section>
         <section id="Ofertas">
             <h2>Sección de Ofertas</h2>
-            </ul>
             <img src="./assets/cafetera.moulinex.jpg" width="200" alt="Cafetera Moulinex">
-            <br>
-            <sup>$6.770</sup>
-            <br>
-            <text> 40% Off</text>
-            <p><strong>Cafetera Moulinex</strong></p><br>
+            <h4>$6.770 40% Off Cafetera Moulinex</h4>
             <img src="./assets/MacBook.jpg" width="200" alt="MacBook">
-            <br>
-            <sup>$230.000</sup>
-            <br>
-            <text>20% Off</text><br>
-            <p><strong>MacBook Pro 2019</strong></p><br>
+            <h4>$230.000 % Off MacBook Pro 2019</h4>
             <img src="./assets/Galaxy-S10-Ceramic-Black_front1-1.jpg" width="200" alt="Samsung Galaxi">
-            <br>
-            <sup>$70.500</sup>
-            <br>
-            <text>10% Off</text>
-            <p><strong>Samsung Galaxi S10</strong></p><br>
+            <h4>$70.500 10% Off Samsung Galaxi S10</h4>
             <img src="./assets/Samsung-TV_iTunes-Movies-and-TV-shows-643x408.jpg" width="200" alt="SmartTv">
-            <br>
-            <sup>$23.200</sup>
-            <br>
-            <text>5% Off</text>
-            <p><strong>SmartTv Samsung 43"</strong></p><br>
+            <h4>$23.200 5% Off SmartTv Samsung 43"</h4>
+        </section>
     </main>
-    </section>
     <footer>
-        <h3><strong>Pagá con tarjeta o en efectivo</strong></h3>
-        <text>Con Mercado LiebreCash tenés cuotas sin<br> interés con tarjeta o en efectivo en puntos de<br>
-            pago ¡Y siempre es seguro!</text>
-        <br>
-        <h3><strong>Envíos gratis desde los $2.500</strong></h3>
-        <text>Solo por estar registrado en Mercado Liebre<br> tenés envíos gratís en miles de productos
-            .Es<br>un beneficio de Mercado Puntos</text>
-        <br>
-        <h3><strong>Seguridad de principio a fin</strong></h3>
-        <text>¿No te gusta? ¡Devolvelo! En MercadoLiebre<br> no hay nada que no puedas hacer porque
-            estás<br>siempre protegid@</text>
-        <br>
+        <ul>
+            <h3><strong>Pagá con tarjeta o en efectivo</strong></h3>
+            <p>Con Mercado LiebreCash tenés cuotas sin<br> interés con tarjeta o en efectivo en puntos de<br>
+                pago ¡Y siempre es seguro!</p>
+            <br>
+            <h3><strong>Envíos gratis desde los $2.500</strong></h3>
+            <p>Solo por estar registrado en Mercado Liebre<br> tenés envíos gratís en miles de productos
+                .Es<br>un beneficio de Mercado Puntos</p>
+            <br>
+            <h3><strong>Seguridad de principio a fin</strong></h3>
+            <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre<br> no hay nada que no puedas hacer porque
+                estás<br>siempre protegid@</p>
+            <br>
+            <p>Copyright © 1999-2020 Mercado Liebre S.R.L</p>
+        </ul>
     </footer>
 </body>
 
