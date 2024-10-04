@@ -1,0 +1,76 @@
+header {
+    background-color: #EAC926;
+
+}
+
+#logo {
+    background-color: #EAC926;
+    width: 300px;
+}
+
+#search {
+    width: 300px;
+}
+
+.fa-magnifying-glass {
+    font-size: 1em;
+
+}
+
+ul.desordenado {
+    list-style-type: none;
+    padding-left: 0%;
+    font-size: 16px;
+}
+
+.fa-bars {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #1259c3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 3vh;
+}
+
+.seccion {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+p {
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.fa-credit-card {
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+
+}
+
+.fa-gift {
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+}
+
+.fa-user-shield {
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+}
