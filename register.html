@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="./Css/register.css">
+    <script src="https://kit.fontawesome.com/83b19f9d95.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    ">
+</head>
+
+<body>
+    <main>
+        <form>
+            <div class="registro">
+                <label for="username"></label><br>
+                <input type="text" name="Nombre y apellido" placeholder="Nombre y Apellido" required>
+                <label for="user"></label><br>
+                <input type="text" name="User" placeholder="Nombre de Usuario" required>
+                <label for="Email"></label><br>
+                <input type="email" name="Email" id="email" placeholder="Email">
+                <label for="fecha_nacimiento">FECHA DE NACIMIENTO</label><br>
+                <input type="date" id="Fecha de Nacimiento" required>
+                <label for="Domicilio"></label><br>
+                <input type="text" id="Domicilio" name="Domicilio" placeholder="Domicilio">
+                <label for="Comprar">Comprador</label><br>
+                <input type="radio" name="Comprar o Vender" id="Comprar"><br>
+                <label for="Vender">Vendedor</label><br>
+                <input type="radio" name="Comprar o Vender" id="Vender">
+            </div>
+        </form>
+        <h2>Intereses</h2>
+        <section>
+            <ul>
+                <div class="categoria">
+                    <label for="Electro">Electro</label>
+                    <input type="checkbox" name="Categorías" id="Electro">
+                    <label for="Moda">Moda</label>
+                    <input type="checkbox" name="Categorías" id="Moda">
+                    <label for="Hogar">Hogar</label>
+                    <input type="checkbox" name="Categorías" id="Hogar">
+                    <label for="Juguetería">Juguetería</label>
+                    <input type="checkbox" name="Categorías" id="Juguetería">
+                    <label for="Vida Sana">Vida Sana</label>
+                    <input type="checkbox" name="Categorías" id="Vida Sana">
+                    <br>
+                    <label for="Foto_Usuario">Foto del Usuario</label>
+                    <input type="file" id="foto_usuario" name="foto_usuario:">
+                    <br>
+                    <label for="password">Contraseña</label><br>
+                    <input type="password" name="password" id="password">
+                    <br>
+                    <label for="password"> Confirmar Contraseña</label><br>
+                    <input type="password" name="password" id="password">
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <br>
+                    <button type="reset">Borrar</button>
+                </div>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <i class="fa-solid fa-credit-card"></i>
+        <h3><strong>Pagá con tarjeta o en efectivo</strong></h3>
+        <p>Con Mercado LiebreCash tenés cuotas sin<br> interés con tarjeta o en efectivo en puntos de<br>
+            pago ¡Y siempre es seguro!</p>
+        <i class="fa-solid fa-gift"></i>
+        <h3><strong>Envíos gratis desde los $2.500</strong></h3>
+        <p>Solo por estar registrado en Mercado Liebre<br> tenés envíos gratís en miles de productos
+            <br>un beneficio de Mercado Puntos
+        </p>
+        <i class="fa-solid fa-user-shield"></i>
+        <h3><strong>Seguridad de principio a fin</strong></h3>
+        <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre<br> no hay nada que no puedas hacer porque
+            estás<br>siempre protegid@</p>
+        <p>Copyright © 1999-2020 Mercado Liebre S.R.L</p>
+    </footer>
+</body>
+
+</html>

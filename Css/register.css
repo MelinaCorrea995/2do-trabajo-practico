@@ -1,0 +1,57 @@
+main {
+    background-color: #ebebeb;
+
+}
+
+.registro {
+    font-family: "roboto" , sa; 
+    display: inline-block;
+    border: 5px;
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+}
+
+section {
+    margin: auto;
+}
+
+.categoria {
+    font-family: "roboto" , sans-serif;
+    
+    
+}
+
+h2 {text-align: left;
+    border: 2px;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-family: "roboto" , sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.fa-credit-card{
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+    
+}
+.fa-gift{
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+}
+.fa-user-shield{
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+}

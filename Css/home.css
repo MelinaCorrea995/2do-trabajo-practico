@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+flex:opsz,wght@0..144,100..1000&display=swap');
+
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.form {
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+
+
