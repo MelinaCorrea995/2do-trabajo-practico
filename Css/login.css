@@ -1,0 +1,99 @@
+
+.header {
+    background-color: #EAC926;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20%;
+}
+header{
+    background-color: #EAC926;
+}
+
+#logo {
+    width: 250px;
+}
+
+.navegacion-superior {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navegacion-superior i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.navegacion-superior h2 {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.navegacion-inferior ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-inferior li {
+    margin-right: 20px;
+}
+
+.navegacion-inferior a {
+    text-decoration: none;
+}
+
+
+main{
+    background-color: #ebebeb;
+}
+
+
+nav {
+    position: relative;
+}
+
+.fa-magnifying-glas {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+h2 {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+}
+
+
+ul.desordenado {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.li {
+    font-family: "roboto", sans-serif;
+}
+
+.formulario-input {
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.form-submit{ 
+    background-color: #03264C;
+width: auto;
+}
+
+main {
+    text-align: center;
+}

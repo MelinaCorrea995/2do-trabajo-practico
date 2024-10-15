@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+flex:opsz,wght@0..144,100..1000&display=swap');
+
+
+/*header*/
+header {
+    background-color: #EAC926;
+    padding: 1px;
+}
+
+.logo-cabecera {
+    background-color: #EAC926;
+    padding-left: 1px;
+    width: 300px;
+}
+
+
+.header-nav {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+ul.desordenado {
+    list-style-type: none;
+
+}
+
+.button-burger {
+    position: absolute;
+    background-color: #1259c3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    right: 50%;
+}
+
+
+main {
+    width: 90%;
+    padding: 5%;
+    background-color: #ebebeb;
+}
+/*titulares*/
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "roboto flex" sans-serif;
+}
+h3{
+    font-family: "roboto flex" sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+}
+h4 , h5 {
+    font-family: "roboto flex" sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 16px;
+}
+
+section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center
+}
+.article-p {
+    color: #39b54a;
+
+}
+.imagen {
+    background-color: white;
+    border: 1px solid #ebebeb;
+}
+
+.descripcion {
+    background-color: white;
+    padding-top: 15px;
+}
+
+p{
+    padding-left: 15px;
+}
+
+.fa-truck-fast {
+color: #39b54a;
+font-size: 20px;
+border: 1px solid #39b54a;
+width: 30px;
+height: 30px;
+border-radius: 40px;
+margin-left: 10px;
+}
+
+
+.descuento {
+    color: #39b54a;
+font-size: 16px;
+margin-left: 15px;
+}
+
+.fa-credit-card {
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+}
+
+.fa-gift {
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+}
+
+.fa-user-shield {
+    margin-top: 10px;
+    font-size: 2em;
+    padding-left: 50%;
+    color: #1259c3;
+}
+
+.copyright {
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Tablets */
+@media (max-width: 426px) {
+    .header_nav {
+        display: none;
+    }
+
+    .button-burger {
+        display: flex;
+        justify-content: center;
+    }
+    .descripcion{
+        display: none;
+    }  
+}
+
+@media (min-width: 427px) {
+    .button-burger {
+        display: none;
+    }
+    .descripcion{
+        display: block;
+    }
+}
