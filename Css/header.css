@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+flex:opsz,wght@0..144,100..1000&display=swap');
+
+
+header {
+    background-color: #EAC926;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+/* .buscador-titulo {
+    display: flex;
+} */
+
+
+.buscador-titulo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+.logo-cabecera {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo {
+    width: 150px;
+}
+
+
+.buscador {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+input {
+    display: flex;
+    padding: 4px 6px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.buscador i {
+    display: flex;
+    right: 50px;
+    margin-top: 40px;
+
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.precio-cuotas {
+    font-size: 18px;
+}
+
+
+.header-nav {
+    display: flex;
+
+}
+
+/* .header-nav,
+li,
+a {
+    display: none;
+
+} */
+
+.button-burger {
+    position: absolute;
+    background-color: #1259c3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    right: 50%;
+    top: 150px;
+}
+
+.boton-hamburguesa {
+    font-size: 25px;
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .header-nav,
+    li,
+    a {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:768px) {
+
+    .buscador-titulo {
+        position: relative;
+        flex-direction: row;
+        gap: unset;
+        justify-content: space-between;
+        height: 40%;
+    }
+
+    .buscador {
+        align-items: center;
+
+    }
+
+    .precio-cuotas {
+        font-size: 17px;
+    }
+
+    .buscador {
+        background-color: #1259c3;
+    }
+
+    .header_nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1px;
+        height: 60%;
+    }
+
+    .desordenado {
+        display: inline-flex;
+        gap: 10px;
+        width: 45%;
+        align-items: end;
+    }
+
+    .desordenado2{
+        display: inline-flex;
+        justify-content: flex-end;
+        gap: 10px;
+        width: 45%;
+        align-items: end;
+    }
+
+    .boton-hamburguesa {
+        display: none;
+    }
+
+    .header-nav,
+    li,
+    a {
+        display: inline-flex;
+    }
+
+}
+
+@media (min-width:1024px){
+
+    .logo-cabecera{
+        width: 63%;
+    }
+    #logo{
+        width: 250px;
+    }
+    
+   
+}
